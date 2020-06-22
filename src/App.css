@@ -1,38 +1,207 @@
-.App {
-  text-align: center;
+h1,
+h3,
+.about_p {
+	margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#top {
+	min-height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.top_div {
+	min-height: 90vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container_div,
+.project_container {
+	font-family: 'Open Sans', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.container_div {
+	margin-left: 5vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home_flip_div,
+.home_text_end {
+	display: inline-block;
+}
+
+.home_flip_div {
+	transform: rotateY(180deg);
+}
+
+.title {
+	font-size: calc(2.5em + 1.5vw);
+}
+
+.title_dark,
+.contact_dark {
+	color: #202020;
+}
+
+.title_white,
+.home_idea,
+.link_app:hover {
+	color: whitesmoke;
+}
+
+.home_flip_text,
+.home_connect {
+	color: #0179ea;
+}
+
+.home_flip_text {
+	font-size: calc(4em + 2vw);
+	text-shadow: 8px 12px 2px #000000;
+}
+
+.home_description {
+	color: #919191;
+	margin-top: 10px;
+}
+
+.home_idea,
+.home_connect {
+	font-size: 1em;
+}
+
+.home_idea {
+	margin: 20px 0;
+}
+
+.home_connect {
+	border-color: #0179ea;
+	border-style: groove;
+	border-radius: 5px;
+	border-width: 3px;
+	padding: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.icon_div {
+	text-align: right;
+}
+
+.home_description,
+.icon,
+.contact_icon {
+	font-size: 2em;
+}
+
+.icon:hover {
+	transform: scale(1.5);
+	cursor: pointer;
+}
+
+.icon_light,
+.contact_light {
+	color: #919191;
+}
+
+.icon_dark {
+	color: #202020;
+}
+
+.home_connect:hover {
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+.top_dark,
+.home_connect {
+	background-color: #202020;
+}
+
+.top_light {
+	background-color: #919191;
+}
+
+.about_inner {
+	margin-right: 20vw;
+}
+
+.about_p {
+	color: whitesmoke;
+	font-size: 0.85em;
+}
+
+.about_text {
+	margin-top: 15px;
+}
+
+.about_quote {
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.35em;
+	color: #202020;
+}
+
+.about_author {
+	margin-top: 5px;
+}
+
+.contact_div {
+	display: flex;
+	justify-content: end;
+}
+
+.contact_icon {
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+.contact_icon:hover {
+	color: whitesmoke;
+	cursor: pointer;
+}
+
+.contact_last {
+	margin-right: 20px;
+}
+
+.project_title {
+	margin-left: 3vw;
+}
+
+.project_icon {
+	text-align: center;
+}
+
+.project_top_icon {
+	margin-top: 10px;
+}
+
+.carousel {
+	text-align: center;
+}
+
+.carousel_inner {
+	display: table;
+	margin: 0 auto;
+}
+
+.image {
+	height: 350px;
+	width: 600px;
+	opacity: 0.5;
+}
+
+.carousel_caption {
+	background-color: #202020;
+	text-align: center;
+}
+
+.link_app,
+.link_app:visited {
+	color: #0179ea;
+}
+
+@media only screen and (max-device-width: 480px) {
+	.image {
+		min-height: 175px;
+		max-width: 300px;
+	}
 }
