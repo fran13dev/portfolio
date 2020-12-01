@@ -27,7 +27,7 @@ export const Contact = ({ color }) => {
 				/>
 			</a>
 			<a
-				href='mailto:fran13dev@gmail.com?body=Hi Francois'
+				href='mailto:fdevilliers134@gmail.com?body=Hi Francois'
 				target='_blank'
 				rel='noopener noreferrer'
 			>
