@@ -26,7 +26,7 @@ export const Home = () => {
 						Have a project or idea you'd like to discuss?
 					</h6>
 
-					<a href='mailto:fran13dev@gmail.com?body=Hi Francois'>
+					<a href='mailto:fdevilliers134@gmail.com?body=Hi Francois'>
 						<button className='home_connect'>Let's chat!</button>
 					</a>
 
